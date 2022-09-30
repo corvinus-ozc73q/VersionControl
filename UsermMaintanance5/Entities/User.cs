@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace UsermMaintanance5.Entities
 {
-    class User
+    public class User
     {
+        public Guid ID { get; set; } = Guid.NewGuid();
+        public string FirstName;
+        public string LastName;
+        public string FullName { get; set; }  
+      
+
     }
 }
