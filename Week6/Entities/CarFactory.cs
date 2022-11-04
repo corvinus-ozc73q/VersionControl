@@ -13,7 +13,6 @@ namespace Week6.Entities
         {
             return new Car();
         }
-
         
     }
 }
