@@ -15,7 +15,7 @@ namespace Week6.Entities
         {
             AutoSize = false;
             Width = 50;
-            Height = 50;
+            Height = Width;
             Paint += Ball_Paint;
         }
         private void Ball_Paint(object sender, PaintEventArgs e)
